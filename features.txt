@@ -1,0 +1,7 @@
+News Feed Reader Features
+
+- Multiple new feed support, currently 4 news feeds are defined, more can be added by inserting into the news source table
+- News source table has active / passive feature to turn on / off for reading from any source
+- Polling news feeds scheduled for every 5 minutes.
+- Cleaning of the old news ( default 6 hours ago ) , scheduled for every 10 minutes.
+- REST API provided for clients , possible to query the news by time ( minute / hour ) , news source , title, description and their combinations as well.
